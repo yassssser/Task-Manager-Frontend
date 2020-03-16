@@ -10,7 +10,7 @@ import { Routes, RouterModule } from '@angular/router';
 
 
 const routes: Routes = [
-  { path: '', redirectTo: '/lists', pathMatch: 'full' },
+  { path: '', redirectTo: '/login', pathMatch: 'full' },
   { path: 'lists', component: TaskViewComponent },
   { path: 'login', component: LoginViewComponent },
   { path: 'signup', component: SignupViewComponent },
